@@ -43,6 +43,10 @@ This is a simple Quiz App built with React.
 
 You can find the project on GitHub at [https://github.com/redkites/quiz-app](https://github.com/redkites/quiz-app).
 
+## Project Page
+
+Check out the live project at [https://redkites.github.io/quiz-app](https://redkites.github.io/quiz-app).
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
