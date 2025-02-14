@@ -1,0 +1,101 @@
+/* Body & App Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+button:active {
+  background-color: #004085;
+  transform: translateY(1px);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Container Styles */
+.quiz-container, .start-screen, .results-screen {
+  background-color: #fff;
+  color: #333;
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Question & Options Card */
+.question-card {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.options button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #f8f9fa;
+  color: #333;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Additional Styling for a Clean UI */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #333;
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 16px;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  outline: none;
+}
