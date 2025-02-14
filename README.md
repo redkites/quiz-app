@@ -47,6 +47,10 @@ You can find the project on GitHub at [https://github.com/redkites/quiz-app](htt
 
 Check out the live project at [https://redkites.github.io/quiz-app](https://redkites.github.io/quiz-app).
 
+## Project URL
+
+https://roadmap.sh/projects/quiz-app
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
